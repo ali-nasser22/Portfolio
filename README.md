@@ -16,7 +16,7 @@ Open http://localhost:3000
 - `app/` — Next.js App Router entry (`layout.tsx`, `page.tsx`)
 - `components/os/` — all desktop OS components (Desktop, Window, Taskbar, StartMenu, apps…)
 - `styles/globals.css` — Tailwind v4 + Win95 design tokens
-- `public/Ali-Nasser-Temraz-Resume.pdf` — downloadable resume
+- `public/Ali-Temraz-Resume.pdf` — downloadable resume
 
 ## Notes
 
@@ -24,7 +24,8 @@ Open http://localhost:3000
 - The home page uses `"use client"` because the desktop relies on drag/state/effects.
 - Contact form posts to FormSubmit.co (no backend needed).
 - Tailwind v4 is wired via `@tailwindcss/postcss`. If you prefer v3, swap the PostCSS plugin and add a `tailwind.config.js`.
-- If you'd rather use plain Vite + React: copy `components/os/` and `styles/globals.css` into a Vite app, import the CSS in `main.tsx`, and render `<Desktop />`.
+- If you'd rather use plain Vite + React: copy `components/os/` and `styles/globals.css` into a Vite app, import the CSS in `main.tsx`, and render
+  `<Desktop />`.
 
 ## File map
 

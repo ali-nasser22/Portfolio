@@ -1,12 +1,12 @@
 const projects = [
-    {name: "Learniverse Hub", desc: "LMS platform", url: "https://github.com/ali-nasser22/learniverse_hub", glyph: "📘"},
+    {name: "Learniverse Hub", desc: "LMS platform", url: "https://github.com/alitemraz/learniverse_hub", glyph: "📘"},
     {
         name: "Qana Votes",
         desc: "Flutter mobile voting app",
-        url: "https://github.com/ali-nasser22/QanaVotes-App",
+        url: "https://github.com/alitemraz/QanaVotes-App",
         glyph: "🗳"
     },
-    {name: "HMS", desc: "Laravel Hospital Management System", url: "https://github.com/ali-nasser22/HMS", glyph: "🏥"},
+    {name: "HMS", desc: "Laravel Hospital Management System", url: "https://github.com/alitemraz/HMS", glyph: "🏥"},
 ];
 
 export function ProjectsApp() {
@@ -102,15 +102,15 @@ export function NetworkApp() {
 }
 
 export function ResumeApp() {
-    const url = "/Ali-Nasser-Temraz-Resume.pdf";
+    const url = "/portfolio/Ali-Temraz-Resume.pdf";
     return (
         <div className="space-y-3">
-            <div className="bevel-in px-2 py-1 text-xs font-mono">C:\Documents\Ali-Nasser-Temraz-Resume.pdf</div>
+            <div className="bevel-in px-2 py-1 text-xs font-mono">C:\Documents\Ali-Temraz-Resume.pdf</div>
             <div className="bevel-in-deep p-4 font-mono text-[13px] space-y-3">
                 <div className="flex items-center gap-3">
                     <div className="text-4xl">📄</div>
                     <div>
-                        <div className="font-bold text-[15px]">Ali-Nasser-Temraz-Resume.pdf</div>
+                        <div className="font-bold text-[15px]">Ali-Temraz-Resume.pdf</div>
                         <div className="text-[var(--color-bevel-dark)]">Adobe Acrobat Document · 1 page</div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ export function ResumeApp() {
                     Latest version of my résumé. Click below to download or open in a new tab.
                 </p>
                 <div className="flex gap-2 pt-1">
-                    <a href={url} download="Ali-Nasser-Temraz-Resume.pdf"
+                    <a href={url} download="Ali-Temraz-Resume.pdf"
                        className="btn-95 inline-flex items-center justify-center no-underline">
                         ⬇ Download
                     </a>
